@@ -1,0 +1,368 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    padding: 0;
+    display: block;
+    margin-right: 1px;
+    /* width: 143%; */
+    box-sizing: border-box;
+    width: 100%;
+}
+
+body {
+
+    font-family: Amazon Ember,
+        Amazon Arabic Ember,
+        Arial,
+        sans-serif !important;
+
+
+}
+
+.whole {
+
+    width: 100%;
+}
+
+/* Header */
+.head {
+    padding: 15px 17px;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: #1b2530;
+    align-items: center;
+}
+
+.navlogo {
+    background-image: url(D:\Web-dev-mini-projects-main\Amazon-Prime-Login-Page-Clone);
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-indent: -9999px;
+    width: 112px;
+    height: 40px;
+    position: relative;
+    top: 2px;
+    background-position: left 0;
+    margin: 10px;
+
+}
+
+.right {
+    display: block;
+    justify-content: center;
+    margin-left: 84%;
+}
+
+.iconify {
+    color: white;
+}
+
+.head div {
+    color: white;
+}
+
+.lang {
+    align-items: center;
+    width: 100%;
+
+}
+
+.sigin {
+
+    margin-left: 7px;
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
+}
+
+/* Part-1 */
+
+.content {
+    display: block;
+    width: 100%;
+}
+
+.login-now {
+    background-color: #000;
+    background-image: linear-gradient(to right, #000 40%, transparent 58%),
+        url('https://m.media-amazon.com/images/G/31/AmazonVideo/2019/1102620_MLP_1440x675_apv189_V3._CB1198675309_.jpg');
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content-left {
+    display: flex;
+    justify-content: center;
+    color: white;
+    flex-flow: column nowrap;
+    min-height: 70vh;
+    position: relative;
+    padding: 50px 5%;
+    width: 40%;
+    /* width: 1500px; */
+}
+
+.welcome {
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+.join {
+    margin-top: 10px;
+    font-size: 21px;
+}
+
+.login-prime {
+    background-color: #0f79af;
+    color: #fff;
+    margin-top: 38px;
+    padding: 16px 18px 16px;
+    border-radius: 2px;
+    width: 250px;
+    text-align: center;
+
+}
+
+.login-link {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+
+}
+
+/* Part-2 */
+
+.start {
+    background-color: #000;
+    background-image: linear-gradient(to left, #000 40%, transparent 58%), url('https://m.media-amazon.com/images/G/01/digital/video/Magellan_MLP/IN-Living-Room-V2._CB524587855_.jpg');
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content-right {
+    display: flex;
+    justify-content: center;
+    color: white;
+    flex-flow: column nowrap;
+    min-height: 70vh;
+    position: relative;
+    padding: 50px 5%;
+    width: 58%;
+    /* width: 1500px; */
+    padding-left: 1100px;
+}
+
+.entertainment {
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+.detail {
+    margin-top: 5px;
+    font-size: 21px;
+}
+
+.started {
+    background-color: #0f79af;
+    color: #fff;
+    margin-top: 38px;
+    padding: 16px 18px 16px;
+    border-radius: 2px;
+    width: 150px;
+    text-align: center;
+}
+
+.start-link {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+
+}
+
+/* Part-3 */
+
+.memberships {
+    background-color: #000;
+    background-image: linear-gradient(to right, #000 40%, transparent 58%), url('https://m.media-amazon.com/images/G/01/digital/video/Magellan_MLP/PRIME_multi-benefit_MAGNET_2X._CB1519820207_.jpg');
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content-left-2 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    flex-flow: column nowrap;
+    min-height: 70vh;
+    position: relative;
+    padding: 50px 5%;
+    width: 40%;
+    /* width: 1500px; */
+
+}
+
+.memeber-h1 {
+    font-size: 2.5em;
+}
+
+.benefits {
+    margin-top: 5px;
+    font-size: 21px;
+}
+
+.asterik {
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+/* Part-4 */
+
+.tv-stick {
+
+    background-color: #000;
+    background-image: linear-gradient(to left, #000 40%, transparent 58%), url('https://images-na.ssl-images-amazon.com/images/G/01/digital/video/Magellan_MLP/MLP_Template_Image_Left.jpg');
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content-right-2 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    flex-flow: column nowrap;
+    min-height: 70vh;
+    position: relative;
+    width: 40%;
+    padding: 50px 5%;
+    /* width: 1500px; */
+    padding-left: 1000px;
+
+}
+
+.firetv-h1 {
+    font-size: 2.5em;
+}
+
+.firetv-use {
+    margin-top: 5px;
+    font-size: 21px;
+}
+
+/* Part-5 */
+
+.multi-content {
+    display: flex;
+    padding: 60px 5% 30px 5%;
+    justify-content: space-between;
+    min-height: 47vh;
+}
+
+.img3 {
+    text-align: center;
+}
+
+.first {
+    text-align: center;
+}
+
+.second {
+
+    text-align: center;
+
+}
+
+.third {
+    text-align: center;
+}
+
+.h22 {
+    font-size: 36px;
+}
+
+.para {
+    font-size: 21px;
+}
+
+/* Part-6 */
+.family {
+
+    background-color: #000;
+    background-image: linear-gradient(to right, #000 40%, transparent 58%), url('https://m.media-amazon.com/images/G/01/digital/video/Magellan_MLP/IN-kids-30Jan._CB1517304519_.jpg');
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.content-left-3 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    flex-flow: column nowrap;
+    min-height: 70vh;
+    position: relative;
+    padding: 50px 5%;
+    width: 40%;
+}
+
+.friendly {
+    font-size: 2.5em;
+}
+
+.friend {
+    margin-top: 5px;
+    font-size: 21px;
+}
+
+/* footer */
+
+.foot {
+
+    text-align: center;
+    background-color: #222;
+    font-size: 15px;
+    padding: 30px;
+    height: 80px;
+}
+
+.foot-links {
+    display: flex;
+    justify-content: center;
+
+}
+
+.lis-of-links {
+    display: flex;
+    text-decoration: none;
+}
+
+.list-of-links li {
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+    padding: 4px;
+
+}
+
+.links {
+    text-decoration: none;
+    color: #0f79af;
+
+}
+
+.link-para {
+    color: #b1b1b1
+}
